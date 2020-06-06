@@ -1,0 +1,159 @@
+#search_box
+{
+  transition-duration: 0.4s;
+  width: 100%;
+  height: 50%;
+  margin: 55px 0 0 0;
+  border:1px solid black;
+}
+
+#search_box h1
+{
+  font-family: Century Gothic;
+  margin: 0px;
+  font-size: 25px;
+  color: #00ff00;
+  text-align:center
+}
+ h2
+{
+  font-family: Calibri;
+  font-size: 24px;
+  margin: 0px 20px;
+  color: #000;
+  text-align:center;
+}
+
+
+#search_cat{
+	width: 20%;
+	height: 72%;
+	margin: 45px 0 0 250px;
+	border:1px solid black;
+}
+
+#search_cat input{
+	font-size:14px;
+	font-family:Century Gothic;
+	width: 100%;
+	height: 17%;
+	margin: 0 0 0 0;
+	border:1px solid black;
+	background-image: url('images/category.png');
+    background-position: 10px 5px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+
+}
+
+/*
+#search_city{
+	width: 40%;
+	height: 20%;
+	margin: -43px 0 0 29%;
+	border:1px solid black;	
+}
+
+#search_city img{
+	width:25px;
+	height:38px;
+	margin:0 0 0 0;
+}
+
+#search_city input {
+	width: 100%;
+	height: 100%;
+	font-size:24px;
+	font-family:Century Gothic;
+	margin: 0 0 0 0;
+	border:0px solid black;
+	background-image: url('images/location.png');
+    background-position: 10px 5px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+*/
+input::-webkit-calendar-picker-indicator {
+   display: none; 
+}
+
+#search_btn{
+	width: 20%;
+	height: 20%;
+	margin: -47px 0 0 55%;
+	border:0px solid black;
+}
+
+#s_button {
+	transition-duration: 0.7s;
+    background-color: #000; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px;
+    cursor: pointer;
+}
+
+
+#b_result{
+	border:1px solid black;
+	width:70%;
+}
+
+#b_result th{
+		border:1px solid black;
+		background-color:#ff0000;
+		color:#fff;
+}
+#b_result td{
+		/*border:1px solid black;
+		background-color:#ff0000;
+		color:#fff;*/
+}
+
+#p_link{
+    color: black;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+	border:1px solid #ff5500;
+}
+
+#p_link:hover{
+    color: #fff;
+    float: right;
+    padding: 8px 16px;
+    text-decoration: none;
+	background-color:#ff5500;
+}
+
+#center{
+	text-align: center;
+}
+
+#pagination {
+    display: inline-block;
+}
+
+#pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#pagination a:hover {
+    background-color: #00ddcc;
+    color: white;
+}
+
+#pagination a:visited:active {
+    background-color: #ff0000;
+}
+#pagination a:hover:not(.active) {
+	background-color: #ddd;
+}

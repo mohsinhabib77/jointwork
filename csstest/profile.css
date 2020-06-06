@@ -1,0 +1,144 @@
+#profile{
+	width:900px;
+	float:center;
+	margin: 25px 70px 70px 100px;
+}
+#personal{
+		width:800px;
+		height:200px;
+		padding: 0 0 0 30px;
+}
+#prof_pic{
+		width:150px;
+		height:175px;
+		border-radius:50%;
+}
+#prof_pic img{
+	width:150px;
+	height:175px;
+	border-radius:50%;
+
+}
+#prof_info{
+	margin-left:170px;
+	margin-top:-180px;
+}
+
+#prof_info h1{
+	color:#ff0000;
+	font-family:century ;
+	font-size:30px;
+}
+
+#prof_info table{
+	border:0px;
+	width:800px;
+	font-family:century Gothic;
+	font-size:18px;
+	padding:20px 0 0 0;
+}
+#cont_title{
+	background-color:#ddd ;
+	font-family:Century Gothic;
+	
+}
+
+#description{
+		width:600px;
+		height:200px;
+		padding: 0 0 0 30px;
+}
+
+#description h1{
+	background-color:#0fdcba;
+	color:#fff;
+	font-family:century Gothic;
+	font-size:26px;
+	padding:0px;
+	border-bottom:5px solid black;
+}
+
+#description p{
+	font-family:arial;
+	font-size:16px;
+	padding:20px 0 0 0;
+}
+
+#card{
+	width:365px;
+	float:center;
+	margin: 25px 70px 70px 300px;
+	border:1px solid black;
+}
+
+#personal_card{
+		width:300px;
+		height:160px;
+		padding: 10px 10px 10px 10px;
+}
+#card_pic{
+		width:70px;
+		height:100px;
+		border-radius:0%;
+}
+#card_pic img{
+	width:70px;
+	height:100px;
+	border-radius:0%;
+
+}
+#card_info{
+	margin-left:70px;
+	margin-top:-160px;
+}
+
+#card_info h1{
+	color:#ff0000;
+	font-family:century ;
+	font-size:16px;
+}
+
+#card_info table{
+	border:0px;
+	width:300px;
+	font-family:century Gothic;
+	font-size:12px;
+	padding:20px 0 0 0;
+}
+#cont_title{
+	background-color:#ddd ;
+	font-family:Century Gothic;
+	
+}
+
+#printbtn{
+	background-color:#ff0000;
+	color:#fff;
+	font-size:18px;
+	font-family:Arial;
+	font-style:bold;
+	padding:10px;
+	margin:0px 20px 20px 430px;
+}
+
+#description{
+		width:600px;
+		height:200px;
+		padding: 0 0 0 30px;
+}
+
+#description h1{
+	background-color:#0fdcba;
+	color:#fff;
+	font-family:century Gothic;
+	font-size:26px;
+	padding:0px;
+	border-bottom:5px solid black;
+}
+
+#description p{
+	font-family:arial;
+	font-size:16px;
+	padding:20px 0 0 0;
+}
+
